@@ -10,7 +10,7 @@ $string['choosereadme'] = '
 <div class="clearfix">
 <div class="well">
 <h2>Thema - Eduardo Kraus</h2>
-<p><img class=img-polaroid src="kraus/pix/screenshot.jpg" /></p>
+<p><img class=img-polaroid src="numeric/pix/screenshot.jpg" /></p>
 </div>
 <div class="well">
 <h3>Sobre</h3>
@@ -25,7 +25,7 @@ Website: <a href="http://www.eduardokraus.com">www.eduardokraus.com</a>
 <h3>Mais informações</h3>
 </div></div>';
 
-$string['pluginname'] = 'kraus';
+$string['pluginname'] = 'Numeric';
 $string['configtitle'] = 'Thema - Eduardo Kraus';
 
 $string['customcss'] = 'CSS Customizados';

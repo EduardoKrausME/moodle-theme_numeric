@@ -62,7 +62,7 @@ function theme_numeric_set_logo($css, $logo) {
  */
 function theme_numeric_pluginfile($course, $cm, $context, $filearea, $args, $forcedownload, array $options = array()) {
     if ($context->contextlevel == CONTEXT_SYSTEM and $filearea === 'logo') {
-        $theme = theme_config::load('kraus');
+        $theme = theme_config::load('numeric');
         return $theme->setting_file_serve('logo', $args, $forcedownload, $options);
     } else {
         send_file_not_found();

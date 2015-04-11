@@ -25,7 +25,7 @@ Website: <a href="http://www.eduardokraus.com">www.eduardokraus.com</a>
 <h3>Mais informações</h3>
 </div></div>';
 
-$string['pluginname'] = 'kraus';
+$string['pluginname'] = 'Numeric';
 $string['configtitle'] = 'Thema - Eduardo Kraus';
 
 $string['customcss'] = 'Custom CSS';

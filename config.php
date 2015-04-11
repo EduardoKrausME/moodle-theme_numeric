@@ -5,7 +5,7 @@
  * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-$THEME->name = 'kraus';
+$THEME->name = 'numeric';
 
 /////////////////////////////////
 // The only thing you need to change in this file when copying it to
