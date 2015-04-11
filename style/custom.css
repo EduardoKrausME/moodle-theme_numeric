@@ -1,0 +1,315 @@
+/* Custom CSS
+-------------------------*/
+a.logo {
+    background: url([[setting:logo]]) no-repeat 0 0;
+    display: block;
+    float: left;
+    height: 75px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 100px;
+}
+
+.dir-rtl a.logo {
+    background: url([[setting:logo]]) no-repeat 100% 0;
+    display: block;
+    float: right;
+}
+
+
+/****************************************
+ *
+ * CSS do lista de cursos
+ *
+ ****************************************/
+.course-content ul.topics {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+
+.course-content ul.topics:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 7px;
+    background: #d8e3e6;
+    left: 49px;
+    margin-left: -8px;
+    margin-top: 23px;
+}
+
+.course-content ul.topics > li .left.side {
+    height: 100%;
+    width: 125px;
+}
+
+.course-content ul.topics > li .left.side > img {
+    width: 22px;
+    height: 22px;
+    font-size: 0;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 0 0 7px #d8e3e6;
+    text-align: center;
+    left: -5px;
+    padding: 5px;
+    border: 5px solid #fff;
+    top: 5px;
+    margin: 0 0 0 -27px;
+    background: #757575;
+}
+.course-content ul.topics > li .left.side:after {
+    display: block;
+    content: '';
+    position: relative;
+    top: -25px;
+    left: -18px;
+    z-index: 2;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.course-content ul.topics > li:nth-child(1) .left.side:after{
+    content: '1';
+}
+.course-content ul.topics > li:nth-child(2) .left.side:after{
+    content: '2';
+}
+.course-content ul.topics > li:nth-child(3) .left.side:after{
+    content: '3';
+}
+.course-content ul.topics > li:nth-child(4) .left.side:after{
+    content: '4';
+}
+.course-content ul.topics > li:nth-child(5) .left.side:after{
+    content: '5';
+}
+.course-content ul.topics > li:nth-child(6) .left.side:after{
+    content: '6';
+}
+.course-content ul.topics > li:nth-child(7) .left.side:after{
+    content: '7';
+}
+.course-content ul.topics > li:nth-child(8) .left.side:after{
+    content: '8';
+}
+.course-content ul.topics > li:nth-child(9) .left.side:after{
+    content: '9';
+}
+.course-content ul.topics > li:nth-child(10) .left.side:after{
+    content: '10';
+}
+.course-content ul.topics > li:nth-child(11) .left.side:after{
+    content: '11';
+}
+.course-content ul.topics > li:nth-child(12) .left.side:after{
+    content: '12';
+}
+.course-content ul.topics > li:nth-child(13) .left.side:after{
+    content: '13';
+}
+.course-content ul.topics > li:nth-child(14) .left.side:after{
+    content: '14';
+}
+.course-content ul.topics > li:nth-child(15) .left.side:after{
+    content: '15';
+}
+.course-content ul.topics > li:nth-child(16) .left.side:after{
+    content: '16';
+}
+.course-content ul.topics > li:nth-child(17) .left.side:after{
+    content: '17';
+}
+.course-content ul.topics > li:nth-child(18) .left.side:after{
+    content: '18';
+}
+.course-content ul.topics > li:nth-child(19) .left.side:after{
+    content: '19';
+}
+.course-content ul.topics > li:nth-child(20) .left.side:after{
+    content: '20';
+}
+
+.course-content ul.topics > li .left.side .moodle-core-dragdrop-draghandle{
+    position: relative;
+    top: 29px;
+    display: block;
+    left: 7px;
+    height: 0;
+}
+
+.course-content ul.topics > li .left.side:before {
+    display: block;
+    content: '';
+    position: relative;
+    top: 32px;
+    left: 67px;
+    background: #d8e3e6;
+    height: 7px;
+    width: 42px;
+    z-index: 2;
+}
+
+.course-content ul.topics > li .content {
+    background: #f1f1f1;
+    position: relative;
+    border: 2px solid #ddd;
+    border-radius: 3px;
+}
+.course-content ul.topics li.section .content{
+    padding: 15px;
+    padding-left: 40px;
+    margin: 0 5px 0 89px;
+}
+.course-content ul li.section.main{
+    border-bottom: none;
+}
+.course-content ul.topics li.section .content:after {
+    left: 10px;
+    content: "";
+    height: 15px;
+    background: #d8e3e6;
+    box-shadow: 0 0 0 5px #fff;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32px;
+}/*
+.course-content:after{
+    content: "";
+    clear: both;
+}
+.course-content ul.topics li.section:last-child{
+    height: 39px;
+}*/
+
+.course-content .section-summary{
+    border: none;
+}
+.course-content .single-section ul.topics:before{
+    display: none;
+}
+.course-content ul.topics li.section-summary .left:before,
+.course-content .single-section ul.topics li.section .left:before{
+    display: none;
+}
+.course-content ul.topics li.section-summary .left:after,
+.course-content .single-section ul.topics li.section .left:after{
+    display: none;
+}
+.course-content ul.topics li.section-summary .content,
+.course-content .single-section ul.topics li.section .content{
+    margin: 0 5px;
+    padding-left: 0;
+}
+.course-content ul.topics li.section-summary .content:after,
+.course-content .single-section ul.topics li.section .content:after{
+    display: none;
+}
+
+/****************************************
+ *
+ * END CSS do lista de cursos
+ *
+ ****************************************/
+input[type="submit"] {
+    background: [[setting:titlebackground]];
+    color: #FFF;
+    cursor: pointer;
+    padding: 5px;
+    border: 0;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+    text-shadow: none;
+}
+
+input[type="submit"]:hover {
+    background-color: #8C8C8C
+}
+#notice input[value="Sim"],
+#notice input[value="Cancelar"],
+.btn-cancel{
+    background: #e03e63 !important;
+}
+.block{
+    padding: 0 !important;
+    border-radius: 5px;
+}
+.block .header{
+    background: [[setting:titlebackground]];
+    padding: 7px 0;
+    border-radius: 5px 5px 0 0;
+}
+.block .header h2,
+.breadcrumb a,
+.breadcrumb span{
+    color: #ffffff;
+    text-shadow: none;
+}
+.breadcrumb{
+    padding: 8px 15px;
+    background: [[setting:titlebackground]];
+    border-radius: 5px;
+    text-shadow: none;
+}
+.navbar.navbar-fixed-top{
+    background-color: [[setting:titlebackground]];
+}
+.navbar-inner {
+    background-color: rgba(255, 255, 255, 0);
+    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(139, 139, 139, 0.55));
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(255, 255, 255, 0)),to(rgba(139, 139, 139, 0.55)));
+    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgba(139, 139, 139, 0.55));
+    background-image: -o-linear-gradient(top,rgba(255, 255, 255, 0),rgba(139, 139, 139, 0.55));
+    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),rgba(139, 139, 139, 0.55));
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)',endColorstr='rgba(139, 139, 139, 0.55)',GradientType=0);
+}
+.navbar-inner a,
+.navbar-inner,
+.navbar-inner div{
+    color: #FFFFFF !important;
+    text-shadow: none !important;
+}
+.navbar-inner li a{
+    text-decoration: underline;
+}
+
+.course-content ul.section{
+    margin: 0;
+}
+.course-content h3.sectionname{
+    color: #757575;
+}
+
+a {
+    color: [[setting:linkcolor]];
+}
+.header .title img,
+.header .title input{
+    background: #ffffff;
+    padding:   1px;
+}
+
+.coresSugestao span {
+    padding: 12px 6px;
+    margin: 3px;
+    float: left;
+    font-family: "courier new",courier;
+}
+.coresSugestaoLink span{
+    padding: 2px 4px ;
+    margin: 3px;
+    float: left;
+    font-family: "courier new",courier;
+    border: 1px solid rgba(117, 117, 117, 0.42);
+}
+
+
+/* Custom CSS Settings
+-------------------------*/
+[[setting:customcss]]
