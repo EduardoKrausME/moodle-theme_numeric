@@ -4,7 +4,7 @@ Desenvolvi este thema e estou disponibilizando gratuitamente para uso.
 Testei na versão 2.7.
 
 # Como instalar
-Baixe o fonte deste plug-in (arquivo numeric.zip) e descompacte-o na pasta moodle/theme e em Administração do site >> Avisos instale o plug-in e o configure.
+Baixe o fonte deste plug-in (arquivo [numeric.zip](https://github.com/EduardoKrausME/theme_numeric/raw/master/numeric.zip)) e descompacte-o na pasta moodle/theme e em Administração do site >> Avisos instale o plug-in e o configure.
 
 # Trocar as cores
 
