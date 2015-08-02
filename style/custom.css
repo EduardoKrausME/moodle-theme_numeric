@@ -309,6 +309,18 @@ a {
     border: 1px solid rgba(117, 117, 117, 0.42);
 }
 
+.dropdown-menu{
+    background: [[setting:titlebackground]];
+}
+.navbar .nav li.dropdown.open>.dropdown-toggle, 
+.navbar .nav li.dropdown.active>.dropdown-toggle, 
+.navbar .nav li.dropdown.open.active>.dropdown-toggle{
+    background-color: rgba(229, 229, 229, 0.33);
+}
+
+.coursebox .content .summary{
+    width: auto;
+}
 
 /* Custom CSS Settings
 -------------------------*/
