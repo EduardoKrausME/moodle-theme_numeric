@@ -13,3 +13,5 @@ $plugin->component = 'theme_numeric';
 $plugin->dependencies = array(
     'theme_bootstrapbase'  => 2014050800,
 );
+$plugin->maturity  = MATURITY_STABLE;
+$plugin->release   = 'v1.1.3';
