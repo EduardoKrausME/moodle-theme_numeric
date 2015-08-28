@@ -1,28 +1,27 @@
 /* Custom CSS
 -------------------------*/
 a.logo {
-    background: url([[setting:logo]]) no-repeat 0 0;
-    display: block;
-    float: left;
-    height: 75px;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    max-height: 100px;
+    background : url([[setting:logo]]) no-repeat 0 0;
+    display    : block;
+    float      : left;
+    height     : 75px;
+    margin     : 0;
+    padding    : 0;
+    width      : 100%;
+    max-height : 100px;
 }
 
 .dir-rtl a.logo {
-    background: url([[setting:logo]]) no-repeat 100% 0;
-    display: block;
-    float: right;
+    background : url([[setting:logo]]) no-repeat 100% 0;
+    display    : block;
+    float      : right;
 }
-
 
 /****************************************
  *
  * CSS do lista de cursos
  *
- ****************************************/
+ ****************************************
 .course-content ul.topics {
     margin: 0;
     padding: 0;
@@ -184,30 +183,36 @@ a.logo {
 }
 .course-content ul.topics li.section:last-child{
     height: 39px;
-}*/
+}
+ */
 
-.course-content .section-summary{
-    border: none;
+.course-content .section-summary {
+    border : none;
 }
-.course-content .single-section ul.topics:before{
-    display: none;
+
+.course-content .single-section ul.topics:before {
+    display : none;
 }
+
 .course-content ul.topics li.section-summary .left:before,
-.course-content .single-section ul.topics li.section .left:before{
-    display: none;
+.course-content .single-section ul.topics li.section .left:before {
+    display : none;
 }
+
 .course-content ul.topics li.section-summary .left:after,
-.course-content .single-section ul.topics li.section .left:after{
-    display: none;
+.course-content .single-section ul.topics li.section .left:after {
+    display : none;
 }
+
 .course-content ul.topics li.section-summary .content,
-.course-content .single-section ul.topics li.section .content{
-    margin: 0 5px;
-    padding-left: 0;
+.course-content .single-section ul.topics li.section .content {
+    margin       : 0 5px;
+    padding-left : 0;
 }
+
 .course-content ul.topics li.section-summary .content:after,
-.course-content .single-section ul.topics li.section .content:after{
-    display: none;
+.course-content .single-section ul.topics li.section .content:after {
+    display : none;
 }
 
 /****************************************
@@ -216,110 +221,138 @@ a.logo {
  *
  ****************************************/
 input[type="submit"] {
-    background: [[setting:titlebackground]];
-    color: #FFF;
-    cursor: pointer;
-    padding: 5px;
-    border: 0;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
-    text-shadow: none;
+    background         : [[setting:titlebackground]];
+    color              : #FFFFFF;
+    cursor             : pointer;
+    padding            : 5px;
+    border             : 0;
+    -webkit-transition : all 0.5s ease-out;
+    -moz-transition    : all 0.5s ease-out;
+    -o-transition      : all 0.5s ease-out;
+    transition         : all 0.5s ease-out;
+    text-shadow        : none;
 }
 
 input[type="submit"]:hover {
-    background-color: #8C8C8C
-}
-#notice input[value="Sim"],
-#notice input[value="Cancelar"],
-.btn-cancel{
-    background: #e03e63 !important;
-}
-.block{
-    padding: 0 !important;
-    border-radius: 5px;
-}
-.block .header{
-    background: [[setting:titlebackground]];
-    padding: 7px 0;
-    border-radius: 5px 5px 0 0;
-}
-.block .header h2,
-.breadcrumb a,
-.breadcrumb span{
-    color: #ffffff;
-    text-shadow: none;
-}
-.breadcrumb{
-    padding: 8px 15px;
-    background: [[setting:titlebackground]];
-    border-radius: 5px;
-    text-shadow: none;
-}
-.navbar.navbar-fixed-top{
-    background-color: [[setting:titlebackground]];
-}
-.navbar-inner {
-    background-color: rgba(255, 255, 255, 0);
-    background-image: -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(139, 139, 139, 0.55));
-    background-image: -webkit-gradient(linear,0 0,0 100%,from(rgba(255, 255, 255, 0)),to(rgba(139, 139, 139, 0.55)));
-    background-image: -webkit-linear-gradient(top,rgba(255, 255, 255, 0),rgba(139, 139, 139, 0.55));
-    background-image: -o-linear-gradient(top,rgba(255, 255, 255, 0),rgba(139, 139, 139, 0.55));
-    background-image: linear-gradient(to bottom,rgba(255, 255, 255, 0),rgba(139, 139, 139, 0.55));
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)',endColorstr='rgba(139, 139, 139, 0.55)',GradientType=0);
-}
-.navbar-inner a,
-.navbar-inner,
-.navbar-inner div{
-    color: #FFFFFF !important;
-    text-shadow: none !important;
-}
-.navbar-inner li a{
-    text-decoration: underline;
+    background-color : #8C8C8C
 }
 
-.course-content ul.section{
-    margin: 0;
+#notice input[value="Sim"],
+#notice input[value="Cancelar"],
+.btn-cancel {
+    background : #E03E63 !important;
 }
-.course-content h3.sectionname{
-    color: #757575;
+
+.block {
+    padding       : 0 !important;
+    border-radius : 5px;
+}
+
+.block .header {
+    background    : [[setting:titlebackground]];
+    padding       : 7px 0;
+    border-radius : 5px 5px 0 0;
+}
+
+.block .header h2,
+.breadcrumb a,
+.breadcrumb span {
+    color       : #FFFFFF;
+    text-shadow : none;
+}
+
+.breadcrumb {
+    padding       : 8px 15px;
+    background    : [[setting:titlebackground]];
+    border-radius : 5px;
+    text-shadow   : none;
+}
+
+.navbar.navbar-fixed-top {
+    background-color : [[setting:titlebackground]];
+}
+
+.navbar-inner {
+    background-color : rgba(255, 255, 255, 0);
+    background-image : -moz-linear-gradient(top, rgba(255, 255, 255, 0), rgba(139, 139, 139, 0.55));
+    background-image : -webkit-gradient(linear, 0 0, 0 100%, from(rgba(255, 255, 255, 0)), to(rgba(139, 139, 139, 0.55)));
+    background-image : -webkit-linear-gradient(top, rgba(255, 255, 255, 0), rgba(139, 139, 139, 0.55));
+    background-image : -o-linear-gradient(top, rgba(255, 255, 255, 0), rgba(139, 139, 139, 0.55));
+    background-image : linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(139, 139, 139, 0.55));
+    filter           : progid:DXImageTransform.Microsoft.gradient(startColorstr='rgba(255, 255, 255, 0)', endColorstr='rgba(139, 139, 139, 0.55)', GradientType=0);
+}
+
+.navbar-inner a,
+.navbar-inner,
+.navbar-inner div {
+    color       : #FFFFFF !important;
+    text-shadow : none !important;
+}
+
+.navbar-inner li a {
+    text-decoration : underline;
+}
+
+.course-content ul.section {
+    margin : 0;
+}
+
+.course-content h3.sectionname {
+    color : #757575;
 }
 
 a {
-    color: [[setting:linkcolor]];
+    color : [[setting:linkcolor]];
 }
+
 .header .title img,
-.header .title input{
-    background: #ffffff;
-    padding:   1px;
+.header .title input {
+    background : #FFFFFF;
+    padding    : 1px;
 }
 
 .coresSugestao span {
-    padding: 12px 6px;
-    margin: 3px;
-    float: left;
-    font-family: "courier new",courier;
-}
-.coresSugestaoLink span{
-    padding: 2px 4px ;
-    margin: 3px;
-    float: left;
-    font-family: "courier new",courier;
-    border: 1px solid rgba(117, 117, 117, 0.42);
+    padding     : 12px 6px;
+    margin      : 3px;
+    float       : left;
+    font-family : "courier new", courier;
 }
 
-.dropdown-menu{
-    background: [[setting:titlebackground]];
-}
-.navbar .nav li.dropdown.open>.dropdown-toggle, 
-.navbar .nav li.dropdown.active>.dropdown-toggle, 
-.navbar .nav li.dropdown.open.active>.dropdown-toggle{
-    background-color: rgba(229, 229, 229, 0.33);
+.coresSugestaoLink span {
+    padding     : 2px 4px;
+    margin      : 3px;
+    float       : left;
+    font-family : "courier new", courier;
+    border      : 1px solid rgba(117, 117, 117, 0.42);
 }
 
-.coursebox .content .summary{
-    width: auto;
+.dropdown-menu {
+    background : [[setting:titlebackground]];
+}
+
+.navbar .nav li.dropdown.open > .dropdown-toggle,
+.navbar .nav li.dropdown.active > .dropdown-toggle,
+.navbar .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color : rgba(229, 229, 229, 0.33);
+}
+
+.coursebox .content .summary {
+    width : auto;
+}
+
+#id_s_theme_numeric_customcss {
+    font-family : monospace;
+}
+
+.coursebox .content .teachers,
+.coursebox .content .summary {
+    width : auto;
+    float : none;
+    clear : none;
+}
+
+.img-responsive {
+    max-width : 98% !important;
 }
 
 /* Custom CSS Settings
